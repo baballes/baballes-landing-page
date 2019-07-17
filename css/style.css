@@ -930,7 +930,6 @@ textarea.form-control {
     height: 36px;
     display: block;
     font-size: 15px;
-    line-height: 32px;
     text-align: center;
 }
 
@@ -953,9 +952,9 @@ textarea.form-control {
 
 .footer-list li a {
     color: #98a0aa;
-    padding-top: 8px;
+    padding-top: 2px;
     display: inline-block;
-    font-size: 14px;
+    font-size: 20px;
     transition: all .3s ease-in-out;
 }
 
