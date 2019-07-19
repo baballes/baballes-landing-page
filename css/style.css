@@ -931,6 +931,7 @@ textarea.form-control {
     display: block;
     font-size: 15px;
     text-align: center;
+    margin-top: 15px;
 }
 
 .cta {
@@ -951,10 +952,10 @@ textarea.form-control {
 }
 
 .footer-list li a {
-    color: #98a0aa;
+    color: #858D92;
     padding-top: 2px;
     display: inline-block;
-    font-size: 20px;
+    font-size: 1rem;
     transition: all .3s ease-in-out;
 }
 
