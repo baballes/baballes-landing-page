@@ -315,6 +315,7 @@ iframe {
     border: 2px solid #fff;
     color: #000 !important;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .read-btn {
@@ -1015,6 +1016,11 @@ textarea.form-control {
     line-height: 36px;
 }
 
+.copy-rights a {
+    text-decoration: underline !important;
+    color: #858d96 !important;
+}
+
 /*=====================================
     17. EXTRA PAGES
 ====================================*/
@@ -1290,4 +1296,55 @@ timeline-p {
     border-width: 10px 15px 10px 0;
     border-color: transparent #f5f5f5 transparent transparent;
   }
+}
+
+
+
+/*=====================================
+    COOKIES BANNER
+====================================*/
+
+.cookie-banner {
+  display: block;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  border-top: 0.1px solid #858d96 !important;
+}
+.cookie-banner input {
+  display: none;
+}
+.cookie-banner input:checked ~ * {
+  display: none;
+  pointer-events: none;
+}
+.cookie-banner {
+  color: #858d96;
+  background-color: #484645;
+  text-align: center;
+}
+.cookie-banner > * {
+  margin: 0.5em;
+}
+
+.cookie-banner span {
+  font-size: 14px !important;
+}
+
+.cookie-banner a {
+  color: #858d96 !important;
+  text-decoration: underline !important;
+}
+
+.cookie-banner label {
+  margin-bottom: 0px !important;
+  cursor: pointer !important;
+}
+
+.btn-cookies {
+    background-color: #363433 !important;
+    color: #858d96 !important;
+    font-size: 14px;
 }
